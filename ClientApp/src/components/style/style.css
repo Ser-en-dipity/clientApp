@@ -1,0 +1,86 @@
+﻿.chart {
+    width: 100%;
+    height: 200px
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    overflow-x: scroll;
+}
+
+    ul li {
+        margin: 10px;
+    }
+
+table {
+    width: 100%;
+    min-height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+    table, table tr th, table tr td {
+        border: 1px solid black;
+        padding: 2px
+    }
+
+.parent {
+    display: flex;
+    padding: 2px;
+    max-width: 100%;
+}
+
+.childOne {
+    flex: 2;
+    /* 即使设置100px宽，还是会占据剩余的所有宽度 */
+    width: 100%;
+}
+
+.childTwo {
+    width: 17%;
+    padding-top: 80px;
+}
+
+.block {
+    padding: 3px
+}
+
+.Barchart {
+    height: 450px;
+    width: 100%
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.divBorder {
+    border: 1px solid black
+}
+
+.leftMove {
+    margin-left: -2em;
+}
+
+.btn {
+    background: blue;
+    color: white
+}
+
+    .btn:hover {
+        background: blue;
+        color: white
+    }
+.tb {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.right {
+    float: right;
+    width: 50%
+}
+.left {
+float:left;
+width:50%
+}
